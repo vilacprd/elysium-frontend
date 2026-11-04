@@ -11,10 +11,10 @@ El objetivo principal de este desarrollo ha sido poner en práctica conocimiento
 * Interacción del lado del cliente mediante manipulación del DOM.
 
 ## Vista Previa
-* `![Home](screenshots/home.png)`
-* `![Home](screenshots/home2.png)`
-* `![Specialties](screenshots/specialties.png)`
-* `![Specialties](screenshots/specialties2.png)`
+* ![Home](screenshots/home.png)
+* ![Home](screenshots/home2.png)
+* ![Specialties](screenshots/specialties.png)
+* ![Specialties](screenshots/specialties2.png)
 
 
 ## Tecnologías Utilizadas
