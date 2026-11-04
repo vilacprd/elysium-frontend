@@ -11,7 +11,6 @@ El objetivo principal de este desarrollo ha sido poner en práctica conocimiento
 * Interacción del lado del cliente mediante manipulación del DOM.
 
 ## Vista Previa
-*(Nota: Sustituye estas líneas por las rutas reales de tus imágenes en GitHub)*
 * `![Home](screenshots/home.png)`
 * `![Home](screenshots/home2.png)`
 * `![Specialties](screenshots/specialties.png)`
