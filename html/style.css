@@ -1,0 +1,2470 @@
+/*----------------------------------- FONTS ----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+@font-face {
+  font-family: 'ogg';
+  src: url('fuentes/oggtrial-roman-webfont.woff2') format('woff2'),
+       url('fuentes/oggtrial-roman-webfont.woff') format('woff'),
+       url('fuentes/OggTRIAL-Roman.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: ogg-light;
+  src: url("fuentes/Ogg-Light-BF646c18fbb73f7.otf"),
+      url('fuentes/Ogg-Light-BF646c18fc54ff4.ttf') format('ttf'),;
+}
+
+@font-face {
+  font-family: Butler-black-stencil;
+  src: url("fuentes/Butler_Black_Stencil.otf");
+}
+
+@font-face {
+  font-family: Butler-black-stencil;
+  src: url("fuentes/Butler_Black_Stencil.otf");
+}
+
+@font-face {
+  font-family: Butler-black;
+  src: url("fuentes/Butler_Black.otf");
+}
+
+@font-face {
+  font-family: Butler-bold-stencil;
+  src: url("fuentes/Butler_Bold_Stencil.otf");
+}
+
+@font-face {
+  font-family: Butler-bold;
+  src: url("fuentes/Butler_Bold.otf");
+}
+
+@font-face {
+  font-family: Butler-extrabold-stencil;
+  src: url("fuentes/Butler_ExtraBold_Stencil.otf");
+}
+
+@font-face {
+  font-family: Butler-extrabold;
+  src: url("fuentes/Butler_ExtraBold.otf");
+}
+
+@font-face {
+  font-family: Butler-light-stencil;
+  src: url("fuentes/Butler_Light_Stencil.otf");
+}
+
+@font-face {
+  font-family: Butler-light;
+  src: url("fuentes/Butler_Light.otf");
+}
+
+@font-face {
+  font-family: Butler-medium-stencil;
+  src: url("fuentes/Butler_Medium_Stencil.otf");
+}
+
+@font-face {
+  font-family: Butler-medium;
+  src: url("fuentes/Butler_Medium.otf");
+}
+
+@font-face {
+  font-family: Butler-regular-stencil;
+  src: url("fuentes/Butler_Regular_Stencil.otf");
+}
+
+@font-face {
+  font-family: Butler-regular;
+  src: url("fuentes/Butler_Regular.otf");
+}
+
+@font-face {
+  font-family: Butler-ultra-light-stencil;
+  src: url("fuentes/Butler_Ultra_Light_Stencil.otf");
+}
+
+@font-face {
+  font-family: Butler-ultra-light;
+  src: url("fuentes/Butler_Ultra_Light.otf");
+}
+
+@font-face {
+  font-family: Canela;
+  src: url("fuentes/Canela-Thin.otf");
+}
+
+@font-face {
+  font-family: Proximanova-black;
+  src: url("fuentes/proximanova_black.otf");
+}
+
+@font-face {
+  font-family: Proximanova-black2;
+  src: url("fuentes/proximanova_blackit.otf");
+}
+
+@font-face {
+  font-family: Proximanova-bold;
+  src: url("fuentes/proximanova_bold.otf");
+}
+
+@font-face {
+  font-family: Proximanova-bold2;
+  src: url("fuentes/proximanova_boldit.otf");
+}
+
+@font-face {
+  font-family: Proximanova-extrabold;
+  src: url("fuentes/proximanova_extrabold.otf");
+}
+
+@font-face {
+  font-family: Proximanova-light;
+  src: url("fuentes/proximanova_light.otf");
+}
+
+@font-face {
+  font-family: Proximanova-regular;
+  src: url("fuentes/proximanova_regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Black;
+  src: url("fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-BlackItalic;
+  src: url("fuentes/Montserrat-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("fuentes/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-BoldItalic;
+  src: url("fuentes/Montserrat-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url("fuentes/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBoldItalic;
+  src: url("fuentes/Montserrat-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-ExtraLight;
+  src: url("fuentes/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-ExtraLightItalic;
+  src: url("fuentes/Montserrat-ExtraLightItalic.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Italic;
+  src: url("fuentes/Montserrat-Italic.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url("fuentes/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-LightItalic;
+  src: url("fuentes/Montserrat-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("fuentes/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-MediumItalic;
+  src: url("fuentes/Montserrat-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("fuentes/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("fuentes/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-SemiBoldItalic;
+  src: url("fuentes/Montserrat-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Thin;
+  src: url("fuentes/Montserrat-Thin.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-ThinItalic;
+  src: url("fuentes/Montserrat-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: Signature;
+  src: url("fuentes/SignaturexDemoRegular.ttf");
+}
+
+:root {
+  --background: #e5e4dc;
+  --backgroundText: #f7f1d2;
+  --brown: #432a27;
+
+  --sizeButtonHero: clamp(2rem, 1.286rem + 1.905vw, 3rem);
+  --sizeButtonMenu: clamp(1rem, 0.5rem + 1.333vw, 1.7rem);
+  --sizeLogo: clamp(3rem, 1.4rem + 6.4vw, 7rem);
+  --sizeNav: clamp(1rem, 0.769rem + 1.026vw, 2rem);
+  --sizeP: clamp(1rem, 0.857rem + 0.381vw, 1.2rem);
+}
+
+html,
+body {
+  
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  color: var(--brown);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+/*--------------------------- HERO SECTION ---------------------------------------*/
+
+.backPicture {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heroSec {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("img/specialties/archivo249.jpg");
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.heroSecTeam {
+  width: 100%;
+  min-height: 65vh;
+  background-image: url("img/team/azurmendi-restaurantes-michelin-enekoatxa.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.heroSecContact {
+  width: 100%;
+  min-height: 65vh;
+  background-image: url("img/contact/granada.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.heroSecSpecialties {
+  width: 100%;
+  min-height: 65vh;
+  background-image: url("img/specialties/specialtiesBackground.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.elysiumLogo {
+  background-image: url("img/logo/logo-sin-fondo.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 700ms ease-out;
+  flex-shrink: 0;
+}
+
+.elysiumLogo:hover {
+  transition: all 300ms ease-out;
+  scale: 1.01;
+}
+
+.heroLogo {
+  height: 90px;
+  width: 114px;
+}
+
+.buttonNav:hover {
+  cursor: pointer;
+}
+
+.menuPhone {
+  flex: 1 1 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  transition: all 1s ease;
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.menuPhone li a {
+  color: #cec9ba;
+  font-size: clamp(2rem, 1.9308rem + 0.3077vw, 2.3rem);
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.34);
+}
+
+.burguerMenu {
+  opacity: 0;
+}
+
+.inviM {
+  display: none;
+}
+
+.heroContent {
+  flex: 1 0 1px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 10rem;
+  margin-top: 10rem;
+}
+
+.teamContent {
+  flex: 1 0 1px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.34);
+
+  color: white;
+  gap: 40px;
+}
+
+.specialtiesContent {
+  flex: 1 0 1px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.34);
+
+  color: white;
+  gap: 40px;
+}
+
+.contactUsContent {
+  flex: 1 0 1px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.34);
+
+  color: white;
+  gap: 40px;
+}
+
+.heroContent {
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.34);
+  color: #cec9ba;
+  gap: 40px;
+}
+
+.heroButton {
+  flex: 1 0 1px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nameRestaurant {
+  font-family: "ogg";
+  font-size: clamp(5rem, 2.5rem + 6.667vw, 8.5rem);
+  letter-spacing: .7rem;
+  text-transform: lowercase;
+}
+
+.teamTitle {
+  font-family: "ogg";
+  text-transform: inherit;
+  font-size: var(--sizeLogo);
+}
+
+.slogan {
+  color: #cec9ba;
+  font-family: ogg-light;
+  font-size: var(--sizeNav);
+  text-shadow: none;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.34);
+  font-size: clamp(1.5rem, 1.25rem + 0.667vw, 1.85rem);
+}
+
+.lastEntry > .material-symbols-outlined {
+  color: var(--maddder);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 24;
+}
+
+.container-hero {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #faf6f3;
+}
+
+.containerHero {
+  flex-basis: 75%;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.mainContent {
+  width: 90%;
+}
+
+.mainContentTeam {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.pSection {
+  text-align: center;
+  align-items: center;
+  align-content: baseline;
+  font-family: Proximanova-light;
+  font-size: var(--sizeP);
+  font-weight: bolder;
+  line-height: 1.7;
+}
+
+.pSection b {
+  font-family: Proximanova-bold;
+}
+
+/* NAV */
+
+nav {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 0 0 90px;
+  position: fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  transition: background 0.5s;
+  background: transparent;
+  z-index: 999999999;
+}
+
+nav.active {
+  background: #e5e4dc;
+  height: 10%;
+}
+
+nav ul {
+  flex-shrink: 1;
+  font-family: Montserrat-Regular;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+nav ul li {
+  display: inline-block;
+
+  /* text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.34); */
+}
+
+nav ul li a {
+  font-size: var(--sizeNav);
+  text-transform: uppercase;
+  padding: 9px 9px;
+  box-sizing: border-box;
+  color: #cec9ba;
+  transition: color 0.5s;
+}
+
+nav.active ul li a {
+  font-size: var(--sizeNav);
+  text-transform: uppercase;
+  padding: 9px 9px;
+  box-sizing: border-box;
+  color: #9b8e74;
+}
+
+/* LOGO AND BUTTON */
+
+.buttonHero {
+  font-family: Montserrat-regular;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  font-size: clamp(1rem, 0.286rem + 1.905vw, 2rem);
+  margin-bottom: 40px;
+  text-align: center;
+  background: #b1a893;
+  color: white;
+}
+
+.buttonHero:hover {
+  transition: all 300ms ease-out;
+  background: #e5e4dc;
+  color: #b1a893;
+}
+
+.buttonMenu {
+  margin-top: 3rem;
+  font-size: var(--sizeButtonMenu);
+  margin-bottom: 0;
+}
+
+.logoButton {
+  flex: 0 0 130px;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  text-shadow: none;
+}
+
+.menuButton {
+  flex: 0 0 130px;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-shadow: none;
+}
+
+.logoButton a {
+  text-decoration: none;
+  color: #f5f5f1;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.linkRoute {
+  box-sizing: border-box;
+  border: 1px solid var(--maddder);
+  padding: 15 40px;
+  width: 180px;
+  transition: all 300ms ease-out;
+  flex: 1 1;
+  width: 100%;
+}
+
+.linkRoute:hover {
+  background-color: var(--maddder);
+  color: white;
+  transition: all 300ms ease-out;
+}
+
+/* HOMEPAGE CONTENT */
+
+.separator {
+  height: 2rem;
+  background: #faf6f3;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.container {
+  width: 100%;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerTeam {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerMenu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/svg/linea-bg.svg");
+  z-index: 999999;
+}
+
+.containerMenu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f7ed;
+}
+
+.containerChef {
+  background-color: #faf6f3;
+  background-image: url("img/svg/semi-circulo_animated.svg");
+  background-repeat: no-repeat;
+}
+
+.container1 {
+  background: url("img/background/elbohio-quote-bg-2.webp");
+  width: 100%;
+  min-height: 100vh;
+  background-position: top center;
+  background-size: contain;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container2 {
+  background-image: url("img/svg/linea-bg.svg");
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-color: #faf6f3;
+}
+
+.container3 {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-color: #faf6f3;
+}
+
+.kitchenStaff {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-color: #faf6f3;
+  background-image: url("img/svg/linea-bg.svg");
+}
+
+.container3 {
+  background-color: #faf6f3;
+
+  background-repeat: no-repeat;
+}
+
+.semiCircle {
+  background-image: url("img/svg/semi-circulo_animated.svg");
+}
+
+.marginContainer {
+  display: flex;
+  flex: 0 1 75%;
+  justify-content: center;
+}
+
+article {
+  box-sizing: border-box;
+  /* padding: 30px 30px; */
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  flex: 1 1 50%;
+  text-align: center;
+  align-items: center;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-family: ogg;
+  font-size: clamp(2rem, 1.9567rem + 0.1923vw, 2.1875rem);
+  text-align: start;
+  line-height: 3.5rem !important;
+}
+
+.articleImg1 {
+  background-image: url(img/home/tio-con-humo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.backgroundBand {
+  background-image: url(img/team/archivo448_.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.articleImg2 {
+  background-image: url(img/home/archivo89.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.articleImg3 {
+  background-image: url(img/home/bohio-restaurante-1.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.signature {
+  font-family: Signature;
+}
+
+.signatureText {
+  width: 50%;
+  align-content: center;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.containerContentArticle {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  flex: 0 1 72%;
+  row-gap: 50px;
+  column-gap: 80px;
+}
+
+.containerH2 {
+  flex: 0 0 230px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: var(--sizeP);
+  line-height: 1.75rem;
+}
+
+.double-quotation-marks {
+  align-self: flex-start;
+  width: 50%;
+}
+
+.section p {
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 800px;
+}
+
+.articleText > p {
+  display: block;
+}
+
+.articleText p {
+  text-align: left;
+}
+
+.imgArticle {
+  flex: 0 1 420px;
+  flex-shrink: 1;
+  height: 420px;
+}
+
+.imgWelcome {
+  background-image: url("img/home/headChef.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgWhereWeStarted {
+  background-image: url("img/home/restEntrance.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.doubleTextArticle {
+  flex: 1 1 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.quote {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: clamp(1.875rem, 1.8462rem + 0.1282vw, 2rem);
+}
+
+.authorQuote {
+  font-weight: 600;
+  text-align: right;
+}
+.articleDoubleImg {
+  display: flex;
+  height: 75vh;
+  flex-flow: column nowrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.imgDoubleImg {
+  flex-basis: 50%;
+}
+.mushBack {
+  background-image: url("img/home/mushBack.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ingriBack {
+  background-image: url("img/home/ingriBack.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.articleButton {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-top: 96px;
+  padding-bottom: 50px;
+}
+
+.pArticleButton {
+  flex-basis: 72%;
+}
+
+.normalButton {
+  transition: all 0.6s ease-in 0s;
+  text-decoration: none;
+  border: 1px solid var(--brown);
+  color: var(--brown);
+  margin-top: auto;
+  width: 185px;
+  flex-basis: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: clamp(1.375rem, 1.3606rem + 0.0641vw, 1.4375rem);
+  font-family: "Work Sans", sans-serif;
+}
+
+button {
+  transition: background-color 0.35s ease-in 0s;
+}
+
+.normalButton:hover,
+button:hover,
+.normalButton2:hover {
+  transition: all 0.35s ease-in 0s;
+  background-color: var(--brown);
+  color: var(--background);
+  border: 1px solid var(--brown);
+  /*transform: translatex(2px) ;*/
+  scale: 0.99;
+}
+
+span {
+  width: 100%;
+}
+
+.h2Button {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+.threeImgCont {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.threeImg {
+  flex: 1 1;
+  min-width: 260px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+
+.twoImg {
+  flex: 1 1;
+  min-width: 260px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat-regular;
+  text-align: center;
+  font-size: clamp(1.875rem, 1.8317rem + 0.1923vw, 2.0625rem);
+}
+
+.imgThreeImg {
+  width: 100%;
+  height: 420px;
+}
+
+.imgTwoImg {
+  width: 70%;
+  height: 500px;
+}
+
+.dish1 {
+  background-image: url("img/home/dish2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dish2 {
+  background-image: url("img/home/dish1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dish3 {
+  background-image: url("img/home/dish3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faqContainer {
+  flex: 1 1;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 500;
+  font-size: clamp(1.4375rem, 1.4087rem + 0.1282vw, 1.5625rem);
+}
+
+.faqElement {
+  flex: 1 1 420px;
+  min-width: 270px;
+}
+
+/*------------------- Special Article ------------------------------------------------------------*/
+
+.specialtiesContentSection {
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+  height: 100vh;
+}
+
+.specialtiesImgs {
+  width: 100%;
+  height: 50vh;
+}
+
+.specialtiesImg1 {
+  height: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.specialtiesImg2 {
+  height: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.specialtiesHidden {
+  display: none;
+}
+
+.articleMenu {
+  width: 100% !important;
+}
+
+.menuText {
+  box-sizing: border-box;
+  padding: 30px 30px;
+  padding-right: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  flex: 1 1 50%;
+  text-align: justify;
+  width: 65%;
+}
+
+.firstMenu {
+  border: 1px solid #d0ba74;
+  padding: 50px !important;
+  text-align: center;
+}
+
+.menuImg {
+  background-image: url(img/specialties/P30.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.dish1 {
+  background-image: url(img/specialties/chuleta.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.dish2 {
+  background-image: url(img/specialties/PICHON-CON-PLUMAS-DE-PATATA.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.dish3 {
+  background-image: url(img/specialties/bohio-comida-2.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.prueba {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.a1 {
+  position: relative;
+  z-index: 1;
+}
+
+.a2 {
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  margin-top: -200px;
+}
+
+.a3 {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.a4 {
+  text-align: right !important;
+  margin-right: 100px;
+}
+
+.specialtiesIntro {
+  margin-top: 5rem;
+  background-image: url("img/svg/sombra-cardos.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.specialSection {
+  gap: 0 !important;
+  margin-top: 0;
+}
+
+.sectionSpecialties {
+  gap: 0 !important;
+  margin-top: 0;
+  display: block;
+}
+
+.chefTitle {
+  align-items: flex-start;
+}
+
+.specialArticle {
+  gap: 0 !important;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+
+.textArticleRight {
+  align-items: baseline;
+}
+
+.textLeft {
+  padding-right: 30px !important;
+}
+
+.textLeft img {
+  width: 100%;
+}
+
+.kitchenImg {
+  padding: 10px 10px !important;
+}
+
+.textRight {
+  padding: 60px 80px !important ;
+}
+
+.imgRight {
+  padding: 0 !important;
+}
+
+.specialArticleImg1 {
+  background-image: url(img/home/sostenible.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.specialArticleImg2 {
+  background-image: url(img/specialties/ABaC-RESTAURANT-CARTA\(c\)JOAN-VALERA.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cheffImg {
+  background-image: url(img/team/eneko-atxa-chef-michelin.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*---------------------------------- Members ----------------------------------------------------*/
+
+.membersImgs {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.imgChef1 {
+  background-image: url(img/team/cocinero1-sinfondo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.imgChef2 {
+  background-image: url(img/team/cocinera2-sinfondo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.imgChef3 {
+  background-image: url(img/team/cocinero3-sinfondo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/*-------------------------------------- Subscribe -----------------------------------------------*/
+
+.backgroundSubscribe {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/home/michelin-azurmendi-restaurantes.jpg");
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionSubscribe {
+  padding: 50px;
+  padding: 0;
+}
+
+.articleSubscribe {
+  color: #e5e4dc;
+  padding: 0;
+}
+
+.titleSubscribe {
+  font-size: clamp(1rem, -0.214rem + 3.238vw, 2.7rem);
+}
+
+.subsSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+form > input {
+  flex: auto;
+  height: 100%;
+  font-family: Montserrat-regular;
+}
+
+form > input[type="email"] {
+  flex: auto;
+  height: 100%;
+  font-family: Montserrat-regular;
+}
+
+form > input[type="email"]::placeholder {
+  color: #b1a89386;
+}
+
+form > input[type="text"]::placeholder {
+  color: #b1a89386;
+}
+
+.textSubs {
+  color: white !important;
+  border: 1px solid #b1a893 !important;
+}
+
+.send {
+  border: 1px solid #b1a893 !important;
+}
+
+input {
+  border: none;
+  background: #f5f5f1;
+  padding: 0.75rem 1rem;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  color: #f5f5f1;
+  background: #b1a893;
+}
+
+input[type="submit"]:hover {
+  transition: all 300ms ease-out;
+  background: #e5e4dc;
+  color: #b1a893;
+}
+
+/* .send{
+  
+} */
+
+/*-------------------------------- Footer --------------------------------------------------------*/
+footer {
+  background-color: #b1a893;
+
+  width: 100%;
+}
+
+.footerContent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #e5e4dc;
+  gap: 40px;
+}
+
+.mission {
+  flex: 0 1 520px;
+  text-align: justify;
+  margin-top: 3rem;
+  gap: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: start;
+}
+
+.mission p {
+  font-family: Proximanova-light;
+  font-weight: bolder;
+  line-height: 1.7;
+  align-content: baseline;
+  font-size: var(--sizeP);
+}
+
+.logoFooter {
+  height: 150px;
+  margin-top: 3rem;
+  width: 91px;
+  background-image: url("img/logo/logo-sin-fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 700ms ease-out;
+}
+
+.logoFooter:hover {
+  transition: all 300ms ease-out;
+  cursor: pointer;
+  scale: 1.08;
+}
+
+.socials {
+  flex: 0 1 260px;
+}
+
+input:focus {
+  outline: 1px solid black;
+  transition: background-color 300ms ease-out;
+}
+
+.navFooter {
+  margin-top: 3rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 35px;
+}
+
+.navFooter a {
+  color: #e5e4dc;
+  display: flex;
+  flex-flow: row nowrap;
+  text-transform: uppercase;
+  gap: 8px;
+  font-family: Montserrat-Regular;
+  font-size: var(--sizeP);
+  transition: color 100ms;
+}
+
+.navFooter a:hover {
+  color: #9b8e74;
+  scale: 1.07;
+}
+
+.socialNetworkContact {
+  margin-bottom: 0.6rem;
+}
+
+.icon {
+  margin-right: 0.3rem;
+}
+
+.socials img {
+  width: 10%;
+  color: #e5e4dc;
+}
+
+.socials img:hover {
+  scale: 1.07;
+}
+
+.socials {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+
+.socials a {
+  color: #e5e4dc;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 8px;
+  font-family: Montserrat-Light;
+  font-size: var(--sizeP);
+  transition: color 300ms ease-out;
+}
+
+.socials i {
+  font-size: 23px;
+}
+.socials a:hover i {
+  transition: color 600ms ease-out;
+  scale: 1.07;
+}
+
+.termsAndAuthor {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: space-around;
+  font-family: Montserrat-thin;
+  color: #e5e4dc;
+  background-color: #81715d;
+}
+
+.terms {
+  display: flex;
+  gap: 15px;
+}
+
+.terms a {
+  color: white;
+  text-decoration: none;
+  transition: underline 300ms ease-out;
+  scale: 0.95;
+}
+
+.terms a:hover {
+  transition: scale 300ms ease-out;
+  scale: 0.97;
+}
+
+
+/*               TEAM PAGE                 */
+
+.introSec {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.containerIntro {
+  flex-basis: 75%;
+  min-height: 50vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.introTeamImg {
+  background-image: url("img/team/seccIntro.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  font-family: "ogg";
+  font-size: clamp(2rem, 1.286rem + 1.905vw, 3rem);
+  word-spacing: 1rem;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 800;
+  font-family: ogg;
+  font-size: clamp(2.0625rem, 2.0337rem + 0.1282vw, 2.1875rem);
+}
+
+.articleText {
+  box-sizing: border-box;
+  padding: 30px 30px;
+  padding-right: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  flex: 1 1 50%;
+  text-align: justify;
+  width: 65%;
+}
+
+.articleMembers {
+  padding-right: 30px !important;
+}
+
+.article div {
+  width: 50%;
+}
+
+.articleText * {
+  padding: 0;
+}
+
+.articleImg {
+  padding: 30px 30px;
+  padding-right: 0;
+  box-sizing: border-box;
+  flex-basis: 410px;
+  flex-shrink: 1;
+  min-height: 520px;
+  width: 100%;
+}
+
+.articleImg div {
+  width: 100%;
+  height: 100%;
+}
+
+.bandimg {
+  padding: 30px;
+  box-sizing: border-box;
+  flex-basis: 410px;
+  flex-shrink: 1;
+  min-height: 520px;
+  width: 100%;
+}
+
+.bandimg div {
+  width: 100%;
+  height: 100%;
+}
+
+.articleImgs {
+  flex: 1 1 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 65%;
+}
+
+.titleSection {
+  margin-bottom: 30px;
+}
+
+.seccIntro {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0;
+}
+
+.seccIntro p {
+  flex: 0;
+}
+
+.imgHeadChef {
+  background-image: url("img/team/headChef.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.onlyTextArticle {
+  flex: 1 1 100%;
+  gap: 0;
+}
+
+.houseEmpl1 {
+  background-image: url("img/team/cocinero1-reducido.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.houseEmpl2 {
+  background-image: url("img/team/cocinera2-reducido.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.houseEmpl3 {
+  background-image: url("img/team/cocinero3.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.waiterImg {
+  background-image: url("img/team/waiter.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sommelierImg {
+  background-image: url("img/team/sommelier.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.socialNetworks {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  gap: 15px;
+  min-height: 15px;
+}
+
+.socialNetworks a {
+  color: var(--brown);
+}
+
+
+/* --------------------------------------------------------------------------*/
+
+.noMarginTop {
+  margin-top: 0px;
+}
+
+.textThreeImg {
+  text-align: justify;
+  font-size: clamp(1.4375rem, 1.4087rem + 0.1282vw, 1.5625rem);
+  font-weight: 300;
+
+  font-family: "Work Sans", sans-serif;
+  font-size: clamp(1.25rem, 1.2212rem + 0.1282vw, 1.375rem);
+}
+
+.menus {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+.menuTitle {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: left;
+  font-size: clamp(2.0625rem, 2.0337rem + 0.1282vw, 2.1875rem);
+  font-size: 500;
+}
+
+.menu h3 {
+  text-align: left;
+}
+
+
+/*-------------------------------------------------Gallery-------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 0 0 100px;
+}
+
+.gallery {
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.box img:hover {
+  transition: all 300ms ease-out;
+  cursor: pointer;
+  scale: 1.02;
+  border-radius: 1%;
+}
+
+
+/*                                  START OF CONTACT                                                    */
+
+
+.calendar {
+  width: 70%;
+  min-width: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: Montserrat-regular;
+}
+
+input,
+select,
+textarea {
+  border-bottom: 1px solid #d0ba74;
+  background-color: transparent;
+  appearance: none;
+  height: 60px;
+  margin-top: 3px;
+  font-size: clamp(1.25rem, 1.2212rem + 0.1282vw, 1.375rem);
+  font-family: Montserrat-regular;
+}
+
+select {
+  border: 1px solid #d0ba74;
+  padding: 0.75rem 1rem;
+}
+
+option {
+  font-family: Montserrat-regular;
+  font-weight: 300;
+  max-width: 100%;
+  color: var(--brown);
+}
+
+optgroup {
+  font-weight: 400;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #d0ba74;
+}
+
+button {
+  flex-basis: 40px;
+  border: 1px solid var(--brown);
+  text-align: center;
+  background-color: var(--background);
+  width: 200px;
+  margin-top: 40px;
+  font-family: "Work Sans", sans-serif;
+  font-size: clamp(1.375rem, 1.3462rem + 0.1282vw, 1.5rem);
+}
+
+.labelMargin {
+  margin-top: 40px;
+}
+
+label {
+  font-size: clamp(1.375rem, 1.3462rem + 0.1282vw, 1.5rem);
+  text-align: start;
+  margin-bottom: 1rem;
+  color: var(--brown);
+}
+
+input[type="date"],
+option {
+  color: var(--brown);
+  opacity: 0.7;
+  font-size: clamp(1.25rem, 1.2212rem + 0.1282vw, 1.375rem);
+}
+
+button:hover,
+select:hover {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+iframe {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.displayButton {
+  display: none;
+}
+
+.collapsedMenu {
+  display: none;
+}
+
+.socialNetworks a i {
+  scale: 0.8;
+}
+
+.seccIntro p {
+  column-count: 2;
+  column-fill: balance;
+  text-align: justify;
+  column-gap: 2rem;
+}
+
+.imgSeparator {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 45vh;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+
+
+.regular {
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  flex-basis: fit-content;
+  border: 2px solid #d0ba74;
+  margin-top: 4rem;
+}
+
+td {
+  border: 1px solid #d0ba74;
+  transition: background-color 0.15s ease-in 0s;
+  text-align: center;
+  width: 14.2%;
+  height: 40px;
+  font-size: clamp(1.25rem, 1.2212rem + 0.1282vw, 1.375rem);
+}
+
+.month {
+  font-family: Montserrat-regular;
+  font-weight: bolder;
+  background-color: #e5e4dc;
+}
+
+td.day:hover {
+  transition: background-color 0.2s ease-in 0s;
+  background-color: #b1a893;
+  color: #f5f5f1;
+  cursor: pointer;
+}
+
+.arrows i {
+  text-decoration: none;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: var(--brown);
+}
+
+.notAvaible {
+  color: #432a27aa;
+}
+
+.arrows i:hover {
+  cursor: pointer;
+}
+
+.notAvaible:hover {
+  cursor: not-allowed;
+}
+
+#labelDate {
+  margin-bottom: 15px;
+}
+
+.containerContentArticleDouble {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  flex: 0 1 72%;
+  row-gap: 50px;
+  column-gap: 80px;
+}
+
+.containerContentArticleDouble * {
+  flex: 0 1 420px;
+}
+
+@media screen and (max-width: 1750px) {
+  .containerHero,
+  .containerIntro {
+    flex-basis: 85%;
+  }
+
+  .marginContainer {
+    flex: 0 1 85%;
+  }
+
+  .footerContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .containerContentArticleDouble {
+    flex: 0 0 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .containerContentArticleDouble * {
+    flex: 1 0 100%;
+  }
+
+  .containerContentArticleDouble div {
+    background-size: contain;
+  }
+
+  .h2DoubleContent {
+    flex: 1 0 100%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .navFooter {
+    flex-flow: row;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  p.onlyTextArticle {
+    column-count: 2;
+    column-fill: balance;
+    flex: 1 0 100%;
+    column-gap: 2.2rem;
+  }
+
+  .navFooter {
+    flex-flow: column nowrap;
+  }
+
+  .containerContentArticle {
+    flex: 1 0 100%;
+  }
+
+  .containerH2 {
+    flex: 1 0 100%;
+  }
+
+  .pArticleButton {
+    flex: 1 0 100%;
+  }
+
+  .hiddeButton {
+    display: none;
+  }
+
+  .displayButton {
+    display: block;
+  }
+
+  .pArticleButton {
+    margin-top: 50px;
+    flex: 0 1 100%;
+  }
+  .normalButton2 {
+    transition: background-color 0.35s ease-in 0s;
+    flex-basis: 185px;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    text-decoration: none;
+    border: 1px solid var(--brown);
+    color: var(--brown);
+
+    align-items: center;
+    font-size: clamp(1.375rem, 1.3606rem + 0.0641vw, 1.4375rem);
+    font-family: "Work Sans", sans-serif;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .containerContentArticle {
+    flex: 1 0 100%;
+  }
+
+  .mission {
+    flex: 1 1 100%;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .socials {
+    max-width: fit-content;
+  }
+
+  .containerH2 {
+    flex: 0 1 100%;
+  }
+
+  .containerContentArticle {
+    flex: 0 1 100%;
+  }
+
+  .footerContent {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  .specialtiesIntro {
+    display: none;
+  }
+
+  .specialtiesHidden {
+    display: inherit;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .containerContentArticle {
+    flex-flow: row wrap;
+  }
+
+  .specialArticle {
+    flex-flow: column nowrap;
+  }
+
+  .textArticleRight {
+    align-items: inherit;
+  }
+
+  .menuText {
+    padding: 0 !important;
+  }
+
+  .articleText {
+    flex: 1 1 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  div img {
+    margin-top: 1rem;
+  }
+
+  .textRight {
+    padding: 0px 0px !important;
+    margin-top: 2rem;
+  }
+
+  .textLeft {
+    padding: 0 !important;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+    margin-top: 2rem !important;
+  }
+
+  article p {
+    max-width: 1000px;
+  }
+
+  .articleImgs {
+    flex: 1 1 100%;
+    margin-top: 2rem;
+  }
+
+  .articleImg {
+    min-height: 400px;
+    box-sizing: border-box;
+    padding: 0px !important;
+    padding-top: 0;
+  }
+
+  p.onlyTextArticle {
+    column-count: 1;
+  }
+
+  .containerContentArticle p,
+  .containerContentArticle div {
+    flex: 1 0 100%;
+  }
+
+  .seccIntro p {
+    column-count: 1;
+  }
+
+  .containerContentArticleDouble {
+    flex: 0 0 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgWelcome {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 991px) {
+  .container-gallery {
+    padding: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .box:nth-child(1) {
+    grid-column-start: span 1;
+  }
+
+  .box:nth-child(4) {
+    grid-column-start: span 1;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .statementLogo {
+    flex: 1 0 100%;
+  }
+
+  .articleText {
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .articleImgs {
+    flex: 1 1 100%;
+  }
+
+  .articleImg {
+    padding: 20px;
+    box-sizing: border-box;
+    padding-top: 0;
+  }
+
+  .navLine {
+    width: 100%;
+
+    flex: 0 0 3px;
+
+    border: 3px solid #cec9ba;
+
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
+  }
+
+  .terms,
+  .author {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .seccIntro p {
+    column-count: 1;
+  }
+
+  .buttonNav {
+    display: block;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+
+  .navLine {
+    width: 100%;
+
+    flex: 0 0 3px;
+    background-color: #cec9ba;
+    border: 3px solid #cec9ba;
+  }
+
+  .burguerMenu {
+    display: none;
+  }
+
+  .inviM {
+    display: flex;
+  }
+
+  nav {
+    align-items: center;
+    flex-flow: row wrap;
+    width: 94%;
+    height: 50%;
+    position: relative;
+    justify-content: space-around;
+  }
+
+  nav ul {
+    gap: 60px;
+  }
+
+  nav.active {
+    background: transparent;
+    height: auto;
+  }
+
+  .navDesk {
+    display: none;
+  }
+
+  .heroContent {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .teamContent {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heroContent h1 {
+    margin-top: 40px;
+  }
+
+  .teamContent h1 {
+    margin-bottom: 2rem;
+  }
+
+  .signatureText {
+    width: 60%;
+  }
+
+  .logoButton {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .containerContentArticleDouble div {
+    background-size: cover;
+  }
+
+  .container1 {
+    background: #faf6f3;
+  }
+
+  .containerContentArticle {
+    flex: 0 1 100%;
+    min-width: 0;
+  }
+
+  p {
+    flex: 1 1 100%;
+  }
+
+  article {
+    padding-bottom: 20px;
+    row-gap: 40px;
+    flex: 0 1 100%;
+  }
+
+  .articleImgs {
+    width: 100%;
+  }
+
+  .specialArticle {
+    flex-flow: column nowrap;
+    gap: 20px !important;
+  }
+
+  .specialArticle2 {
+    flex-direction: column-reverse;
+  }
+
+  .articleText {
+    width: 100%;
+  }
+
+  .footerContainer {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .imgArticle {
+    flex: 0 1 100%;
+    background-size: cover;
+  }
+
+  .statementLogo {
+    flex: 0 1 100%;
+  }
+
+  .contact,
+  .follow {
+    flex: 1 1 120px;
+  }
+
+  .socialLink {
+    padding-right: 0;
+  }
+
+  .mainFooterInfo {
+    gap: 40px;
+  }
+
+  .containerH2 {
+    flex: 1 1 100%;
+  }
+
+  .marginContainer {
+    width: 93%;
+  }
+
+  .imgArticle {
+    flex: 0 1 100%;
+  }
+
+  .containerContentArticle {
+    flex: 0 1 100%;
+  }
+
+  .faqElement {
+    flex: 0 1 100%;
+    min-width: 0;
+  }
+
+  .faqContainer {
+    flex: 0 1 100%;
+  }
+
+  .threeImg {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .logoButton {
+    width: 100%;
+  }
+
+  .imgThreeImg {
+    background-size: cover;
+  }
+
+  .containerContentArticle {
+    row-gap: 40px;
+  }
+
+  .articleDoubleImg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .normalButton2 {
+    margin-top: 20px;
+  }
+
+  .threeImgCont {
+    margin-top: 20px;
+    gap: 40px;
+  }
+
+  .articleButton {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .menus {
+    row-gap: 40px;
+  }
+
+  .menu {
+    flex: 0 1 95%;
+  }
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  .footerContent {
+    justify-content: center;
+  }
+
+  .navFooter {
+    flex-flow: row;
+    margin-bottom: 3rem;
+    gap: 40px;
+  }
+
+  .menuText {
+    width: 100%;
+  }
+}
+
